@@ -13,7 +13,8 @@ function buyApple(x) {
 }
 function buyMore(x) {
   totalApple++;
-  buyApple(x - 5);
+  buyApple(x);
+  // buyApple(x - 5);
 }
 
 buyApple(money);
