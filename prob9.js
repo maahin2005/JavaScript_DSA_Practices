@@ -1,11 +1,11 @@
 //Recursion Array with Reverse .
 
-let data = [5, 12, 65, 89, 0];
+let data = [5, 12, 65, 89, 0, 10];
 
 let temp;
 
 function customReverse(data, start, end) {
-  console.log(data);
+  // console.log(data);
   if (start <= end) {
     temp = data[start];
     data[start] = data[end];
@@ -17,3 +17,4 @@ function customReverse(data, start, end) {
 }
 
 customReverse(data, 0, data.length - 1);
+console.log(data);
